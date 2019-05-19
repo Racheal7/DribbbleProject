@@ -22,5 +22,5 @@ The detailed usage can be found in [Get started](docs/GettingStart.md).
 
 This project welcomes contributions and suggestions from all the users.
 
-We use [GitHub issues](https://github.com/Microsoft/SPTAG/issues) for tracking suggestions and bugs.
+We use [GitHub issues](https://github.com/Racheal7/DribbbleProject/issues) for tracking suggestions and bugs.
 

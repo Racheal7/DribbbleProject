@@ -12,7 +12,7 @@ We first perform an iterative open coding of thousands of existing tags in the D
 
 * Python >= "2.7"
 * tensorflow >= "1.8.0"
-* [tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis) >= "1.0.0"
+* To visualize the result, install [tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis) >= "1.0.0"
 
 ### **Usage**
 

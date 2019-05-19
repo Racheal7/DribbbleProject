@@ -8,5 +8,7 @@ We first perform an iterative open coding of thousands of existing tags in the D
 
 ### **Requirements**
 Python       version >= "2.7"
+
 tensorflow   version >= "1.8.0"
+
 [tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis)    version = "1.0.0"

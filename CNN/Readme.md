@@ -21,9 +21,49 @@ Then select the mode: train or test.
 train = True  ## If true: training mode, else: test mode.
 ```
 ### Step 2: Train the model.
-Before start training, specify whether apply autoaugment to the training dataset or not. If the number of training set is less than 500, then autoaugment is recommended to increase the diversity of the dataset.
+Before start training, specify whether apply **autoaugment** to the training dataset or not. If the number of training set is less than 500, then autoaugment is recommended to increase the diversity of the dataset.
 ```python
 ## With autoaugment transformation (1) or not(0)
 flag = 0
 ```
+You can change the batch size. The default batch size is 32.
+```python
+x_batch, y_batch = next_batch(32) ## batch size is 32.
+```
+If train with GPU, uncomment the line below.
+```python
+#tf.device('/gpu:0') ## Choose which GPU to use.
+```
+### Step 3: Test the model.
 
+Set the "train" parameter to False.
+```python
+## Mode selection.
+train = False
+```
+You could choose to output label name for each label.
+```python
+## Label names.
+label_name_dict = {
+    0: "label_name_for_positive_examples",
+    1: "label_name_for_negative_examples"
+}
+```
+### Step 4: Deep learning visualization.
+To visualize the trained model, install [tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis) first. The tf_cnnvis library provides three different ways of visualisation. Details can be seen at: [https://github.com/InFoCusp/tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis). 
+```python
+        ## Input the images you want to visualize.
+        feed_dict = {datas_placeholder:test_data[0:1], labels_placeholder: test_label[0:1], dropout_placeholdr: 1}
+
+        ## Deconvation visualization
+        layers = ["r", "p", "c"]
+        is_success = deconv_visualization(sess_graph_path = sess, value_feed_dict = feed_dict, 
+                                  input_tensor=datas_placeholder, layers=layers, 
+                                  path_logdir=os.path.join("deconv visualization","img00"), 
+                                  path_outdir=os.path.join("Output","img00"))
+
+        ## Activation visualization
+        is_success = activation_visualization(sess_graph_path = None, value_feed_dict = {datas_placeholder : test_data[0:1]}, 
+                                          layers=layers, path_logdir=os.path.join("activation visualization","img00"), 
+                                          path_outdir=os.path.join("Output","img00"))
+```

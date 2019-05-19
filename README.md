@@ -14,7 +14,7 @@ We first perform an iterative open coding of thousands of existing tags in the D
 * tensorflow >= "1.8.0"
 * To visualize the result, install [tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis) >= "1.0.0"
 
-## Models.
+## Existing Models
 
 So far, we provide **25** binary classifiers which can predict 25 different additional tags. These 25 tags belong to 5 different categories: Platform, Color, App Functionality, Screen Functionality and Screen Layout. 
 
@@ -51,6 +51,10 @@ So far, we provide **25** binary classifiers which can predict 25 different addi
 ### **Usage**
 
 The detailed usage of existing models can be found in the folder [Models/Readme.md](Models/Readme.md).
+
+## Train a new model
+
+For a new tag, we need to train a new binary classifier. The source code for training a new model can be found in [CNN](CNN/)
 
 ## **Contribute**
 

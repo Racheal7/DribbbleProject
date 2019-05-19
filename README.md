@@ -54,7 +54,7 @@ The detailed usage of existing models can be found in the folder [Models/Readme.
 
 ## Train a new model
 
-For a new tag, we need to train a new binary classifier. The source code for training a new model can be found in [CNN](CNN/)
+For a new tag, we need to train a new binary classifier. The source code and detailed process of training a new model can be found in [CNN](CNN/)
 
 ## **Contribute**
 

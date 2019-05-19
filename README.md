@@ -56,6 +56,9 @@ The detailed usage of existing models can be found in the folder [Models/Readme.
 
 For a new tag, we need to train a new binary classifier. The source code and detailed process of training a new model can be found in [CNN](CNN/)
 
+## User Study
+We have conducted a pilot user study to demonstrate the usefulness of our models. The details can be found at 
+
 ## **Contribute**
 
 This project welcomes contributions and suggestions from all the users.

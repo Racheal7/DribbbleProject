@@ -1,4 +1,4 @@
-# DribbbleProject -- A model for recovering missing semantics in UI designs.
+# DribbbleProject -- Predict Additional Tags for Dribbble UI Design
 
 ## Introduction
-
+Graphical User Interface (GUI) is ubiquitous. With the expansion of shared UI design, image tagging greatly support the UI image search. However, there are two problems with tagging-based search that will  severely degrade its efficiency: abbreviations and synonyms within tag vocabulary, and missing tags. For example, for UI designs, some designers would prefer "ui" tag, while others prefer "user interface" or "user-interface". To overcome these two problems, we construct a folksonomy for UI design based on the existing tags, and develop a CNN model for specifically recommend semantic tags to the existing design. Our model achieve a great performance with the average accuracy as 89.1%. And given a query, our method can retrieve much more data than default search.

@@ -14,9 +14,43 @@ We first perform an iterative open coding of thousands of existing tags in the D
 * tensorflow >= "1.8.0"
 * To visualize the result, install [tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis) >= "1.0.0"
 
+## Models.
+
+So far, we provide **25** binary classifiers which can predict 25 different additional tags. These 25 tags belong to 5 different categories: Platform, Color, App Functionality, Screen Functionality and Screen Layout. 
+
+* **Platform**: Website & Mobile
+* **Color**: 
+  * Yellow & Other
+  * Red & Other
+  * Pink & Other
+  * Blue & Other
+  * Green & Other
+  * White & Other
+  * Black & Other
+* **App Function**:
+  * Music & Other
+  * Food&Drink & Other
+  * Ecommerce & Other
+  * Finance & Other
+  * Travel & Other
+  * Game & Other
+  * Weather & Other
+  * Sport & Other
+* **Screen Function**:
+  * Landing page & Other
+  * Signup/Login & Other
+  * Checkout & Other
+  * Profile & Other
+* **Screen Layout**:
+  * Dashboard & Other
+  * Chart & Other
+  * Form & Other
+  * List & Other
+  * Grid & Other
+  
 ### **Usage**
 
-The detailed usage can be found in [Get started](docs/GettingStart.md).
+The detailed usage of existing models can be found in the folder [Models/Readme.md](Models/Readme.md).
 
 ## **Contribute**
 

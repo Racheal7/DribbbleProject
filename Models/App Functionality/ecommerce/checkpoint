@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ruiqi/AppClassification/model_ecommerce_noauto/image_model"
+all_model_checkpoint_paths: "/home/ruiqi/AppClassification/model_ecommerce_noauto/image_model"

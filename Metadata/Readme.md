@@ -17,3 +17,10 @@ Each column corresponds to:
 * Title of the design (specified by the designer).
 * A short description of the design.
 
+# Comments.csv
+
+This csv file contains all comments associated with the designs in the dataset. The structure of the Comments.csv is as follows:
+* ID: The unique id assigned by Dribbble when the design was uploaded.
+* Name: The name of the person who posted the comment
+* Number of likes.
+* Content: The content of each comment.

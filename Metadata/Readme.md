@@ -24,3 +24,7 @@ This csv file contains all comments associated with the designs in the dataset. 
 * Name: The name of the person who posted the comment
 * Number of likes.
 * Content: The content of each comment.
+
+# Word Frequency Analysis.ipynb
+
+This file preforms word frequency analysis on semantic tags in the dataset.

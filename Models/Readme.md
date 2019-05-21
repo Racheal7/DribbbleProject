@@ -1,5 +1,7 @@
 # Existing Model Usage
 
+Prediction_Example.ipynb shows the example usage of the models. 
+
 ### Step 1: Download model
 Choose the tag that you want to predict and download the folder (folders are named with tag names). Along with the model, download the predict.py file.
 
@@ -22,3 +24,4 @@ Run the code and the output would look like:
 > 4003516.jpg     => others <br>
 > 4003544.jpg     => ecommerce <br>
 > 4005139.jpg     => ecommerce <br>
+

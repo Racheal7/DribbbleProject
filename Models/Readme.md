@@ -1,6 +1,6 @@
 # Existing Model Usage
 
-Prediction_Example.ipynb shows the example usage of the models. 
+The zip file of 25 existing models can be downloaded at [GoogleDrive](https://drive.google.com/file/d/16MRjEjt6XH3_C0p1fw2zhaP40CPxXNha/view?usp=sharing) Prediction_Example.ipynb shows the example usage of the models. 
 
 ### Step 1: Download model
 Choose the tag that you want to predict and download the folder (folders are named with tag names). Along with the model, download the predict.py file.

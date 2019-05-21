@@ -1,21 +1,19 @@
 # Existing Model Usage
 
-The zip file of 25 existing models can be downloaded at [GoogleDrive](https://drive.google.com/file/d/16MRjEjt6XH3_C0p1fw2zhaP40CPxXNha/view?usp=sharing) Prediction_Example.ipynb shows the example usage of the models. 
+The zip file of 25 existing models can be downloaded at [GoogleDrive](https://drive.google.com/file/d/16MRjEjt6XH3_C0p1fw2zhaP40CPxXNha/view?usp=sharing).
+Prediction_Example.ipynb shows the example usage of the models. 
 
 ### Step 1: Download model
-Choose the tag that you want to predict and download the folder (folders are named with tag names). Along with the model, download the predict.py file.
+Download the zip file from Google Drive. There are 4 main folders: App, Color, Platform, Screen Func, Screen Layout. Each fold contains a list of subfolders named with tags names. Each subfolder has the following files:
+* predict.py: the source code for tag prediction.
+* test_img: contains 10 test images.
+* model: contains the model.
 
-### Step 2: Set paths
-Put all test images under the folder "test_image". Then change the model path.
-```python
-## Test dataset directory.
-test_data_dir = "test_image"
-## Model path.
-model_path = "ecommerce/image_model" 
-```
+### Step 2: Put the test image under folder test_img
+Select the test images and put them in test_img.
 
 ### Step 3: Testing
-Run the code and the output would look like:
+Run the predict.py and the output would look like:
 > Shape of testing datas: (5, 256, 256, 3) <br>
 > INFO:tensorflow:Restoring parameters from ecommerce/image_model <br>
 > Reload the model from ecommerce/image_model <br>

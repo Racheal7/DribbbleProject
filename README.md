@@ -6,7 +6,7 @@ Graphical User Interface (GUI) is ubiquitous. With the expansion of shared UI de
 
 ## How it works
 
-We first perform an iterative open coding of thousands of existing tags in the Dribbble UI design dataset which we crawled from [Dribbble](https://dribbble.com/). Then we construct a vocabulary of UI semantics with high-level categories. Based on the vocabulary, we train a convolutional neural network that recommends additional tags for UI designs. Our CNN model comprises 6 convolutional layers, 6 max pooling layers, and three fully connected layers. [AutoAugment](https://arxiv.org/abs/1805.09501v1) is used to increase performance.
+We first perform an iterative open coding of thousands of existing tags in the Dribbble UI design dataset which we crawled from [Dribbble](https://dribbble.com/). Then we construct a vocabulary of UI semantics with high-level categories. Based on the vocabulary, we train a convolutional neural network that recommends additional tags for UI designs. Our CNN model comprises 6 convolutional layers, 6 max pooling layers, and three fully connected layers. [AutoAugment](https://github.com/DeepVoltaire/AutoAugment) is used to increase performance.
 
 ### **Requirements**
 
